@@ -12,18 +12,6 @@
 
 ---
 
-## 🖥️ 参考运行环境 (Test & Reference Platform)
-
-- 🎮 **显卡 (GPU)**: `AMD Radeon RX 9070 XT` — 优先调用硬件加速解码；适配 `cut_and_burn.lua` 调用 AMF 单元执行 **AV1 硬件级硬压制**
-- ⚡ **处理器 (CPU)**: `Intel Core i9-13900F (24核)` — 强劲多线程解复用调度，保障 HDR 色调映射吞吐稳定
-- 🧠 **内存 (RAM)**: `32 GB` — 为 **1.5GB 超大内存解复用预读缓存**（1024MB 前向 + 512MB 回退）提供零损耗充沛常驻空间
-- 📺 **显示器 (Display)**: `雷鸟 U8 (R27U81)` — 4K 160Hz Mini-LED / DisplayHDR 1400 认证（1400+ nit 峰值，点对点匹配 HDR Spline / BT.2446a 映射）
-- 🎧 **音频 (Audio)**: `绿联 HiFi USB 耳放 / abingo 2.4G` — WASAPI 独占/立体声安全回退，集成动态人声对白增强与 DRC 压缩
-- 🪟 **系统 (OS)**: `Windows 11 专业工作站版` — 无边框窗口吸附（Snap Window），完全屏蔽旧版内置按键独占接管
-- ☁️ **存储/流媒体**: `115 网盘 (CloudDrive2 挂载)` — 搭配 1.5GB 缓存与模糊中文字幕抓取，4K 原盘拖拽秒开
-
----
-
 ## ⚡ 核心配置解析
 
 - **1.5GB 超大解复用缓存**：
