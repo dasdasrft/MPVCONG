@@ -2,21 +2,25 @@
 
 专为 **4K 高码率流媒体、极简纯净性能流与高效视频处理** 深度定制的 MPV 独立配置套件。
 
+[![GPU](https://img.shields.io/badge/GPU-AMD%20Radeon%20RX%209070%20XT-ED1C24?style=flat-square&logo=amd&logoColor=white)](https://amd.com)
+[![CPU](https://img.shields.io/badge/CPU-Intel%20Core%20i9--13900F%20(24C)-0071C5?style=flat-square&logo=intel&logoColor=white)](https://intel.com)
+[![RAM](https://img.shields.io/badge/RAM-32%20GB-gray?style=flat-square)](https://github.com)
+[![Display](https://img.shields.io/badge/Display-雷鸟%20U8%20(4K%20160Hz%20Mini--LED)-FF6F00?style=flat-square)](https://github.com)
+[![Audio](https://img.shields.io/badge/Audio-UGREEN%20HiFi%20Amp%20%7C%20abingo-1DB954?style=flat-square)](https://github.com)
+[![OS](https://img.shields.io/badge/OS-Windows%2011%20Workstation-0078D4?style=flat-square&logo=windows&logoColor=white)](https://microsoft.com)
+[![Storage](https://img.shields.io/badge/Storage-115%20Netdisk%20(CloudDrive2)-2BA3D4?style=flat-square)](https://115.com)
+
 ---
 
 ## 🖥️ 参考运行环境 (Test & Reference Platform)
 
-本套配置基于以下硬件平台调优并测试通过：
-
-| 组件 | 规格配置 | 说明 |
-| :--- | :--- | :--- |
-| **显卡 (GPU)** | **AMD Radeon RX 9070 XT** | 硬件解码优先；适配 `cut_and_burn.lua` 调用 AMF 引擎启动 **AV1 硬件加速硬压制** |
-| **处理器 (CPU)** | **Intel Core i9-13900F (24核)** | 多线程解复用调度，软解/HDR 色调映射平稳吞吐 |
-| **内存 (RAM)** | **32 GB** | 保障 **1.5GB 超大内存解复用预读缓存** 驻留，零内存压力 |
-| **显示器 (Display)** | **雷鸟 U8 (R27U81)** | 4K 160Hz Mini-LED / DisplayHDR 1400 认证（1400+ nit 峰值，完美呈现 HDR Spline / BT.2446a 映射） |
-| **音频 (Audio)** | **绿联 HiFi USB 耳放 / abingo 2.4G** | WASAPI 独占/立体声自动安全回落，集成 DRC 动态压缩与人声对白增强 |
-| **操作系统 (OS)** | **Windows 11 专业工作站版** | 无边框窗口贴靠（Snap Window），完全屏蔽旧版内置按键独占接管 |
-| **流媒体存储** | **115 网盘 (CloudDrive2 挂载)** | 配合超大解复用缓存与智能模糊字幕挂载，4K 原盘拖拽秒开 |
+- 🎮 **显卡 (GPU)**: `AMD Radeon RX 9070 XT` — 优先调用硬件加速解码；适配 `cut_and_burn.lua` 调用 AMF 单元执行 **AV1 硬件级硬压制**
+- ⚡ **处理器 (CPU)**: `Intel Core i9-13900F (24核)` — 强劲多线程解复用调度，保障 HDR 色调映射吞吐稳定
+- 🧠 **内存 (RAM)**: `32 GB` — 为 **1.5GB 超大内存解复用预读缓存**（1024MB 前向 + 512MB 回退）提供零损耗充沛常驻空间
+- 📺 **显示器 (Display)**: `雷鸟 U8 (R27U81)` — 4K 160Hz Mini-LED / DisplayHDR 1400 认证（1400+ nit 峰值，点对点匹配 HDR Spline / BT.2446a 映射）
+- 🎧 **音频 (Audio)**: `绿联 HiFi USB 耳放 / abingo 2.4G` — WASAPI 独占/立体声安全回退，集成动态人声对白增强与 DRC 压缩
+- 🪟 **系统 (OS)**: `Windows 11 专业工作站版` — 无边框窗口吸附（Snap Window），完全屏蔽旧版内置按键独占接管
+- ☁️ **存储/流媒体**: `115 网盘 (CloudDrive2 挂载)` — 搭配 1.5GB 缓存与模糊中文字幕抓取，4K 原盘拖拽秒开
 
 ---
 
